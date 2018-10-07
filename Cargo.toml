@@ -1,0 +1,15 @@
+[package]
+name = "atsam4s16b-embedded-hal"
+version = "0.1.0"
+authors = ["Nick Mosher <nicholastmosher@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+embedded-hal = "0.2.1"
+atsam4s16b = { git = "https://github.com/nicholastmosher/atsam4s16b-rs.git" }
+cortex-m = "0.5.7"
+panic-halt = "0.2.0"
+
+[dev-dependencies]
+cortex-m-rt = "0.6.4"
+panic-itm = "0.4.0"
